@@ -82,11 +82,20 @@ p {
     Form
    ================= */
 
-   input {
-    width: 100%;
-    padding: 0.5em;
-    margin-bottom: 0.75em;
-   }
+input {
+  font-family: inherit;
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 0.75em;
+  border: 2px solid #d1d5db;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #8a71ec;
+  background-color: #e6e8ec;
+}
 
 /* =================
     Media queries 
