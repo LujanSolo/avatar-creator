@@ -60,8 +60,7 @@ p {
   justify-content: center;
   text-align: center;
   color: #fff;
-  background-color: #9480e4;
-  background-image: url('images/intro-bg.png');
+  background: #9480e4 url("images/intro-bg.png");
   background-size: cover;
 }
 
