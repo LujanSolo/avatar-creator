@@ -39,6 +39,21 @@ p {
   text-transform: uppercase;
 }
 
+.top-text {
+  order: -1;
+  font-size: 0.875rem;
+  font-weight: 900;
+  padding-top: 0.25em;
+  border-top: 5px solid;
+  margin: 0 auto;
+}
+
+.fine-print {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  color: #858585;
+}
+
 /* =================
     Flex containers
    ================= */
@@ -57,7 +72,7 @@ p {
 
 .intro {
   min-height: 250px;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   color: #fff;
   background: #9480e4 url("images/intro-bg.png");
