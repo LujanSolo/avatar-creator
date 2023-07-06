@@ -90,6 +90,11 @@ p {
   padding-top: 2.5em;
 }
 
+.main-content p,
+form {
+  max-width: 450px;
+}
+
 .img-main {
   width: 7.5rem;
   border-radius: 50%;
