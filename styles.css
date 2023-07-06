@@ -27,6 +27,7 @@ h2 {
 p {
   font-size: 1.125rem;
   line-height: 1.35;
+  padding: 1em 0;
 }
 
 .beta-text {
