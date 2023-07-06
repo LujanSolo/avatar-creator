@@ -2,6 +2,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   color: #404040;
   margin: 0;
+  padding: 0;
 }
 
 /* =================
@@ -71,12 +72,13 @@ p {
    ================= */
 
 .intro {
-  min-height: 250px;
   justify-content: space-between;
+  min-height: 250px;
   text-align: center;
   color: #fff;
   background: #9480e4 url("images/intro-bg.png");
   background-size: cover;
+  padding-bottom: 1.5em;
 }
 
 /* ====================
@@ -117,11 +119,10 @@ input:focus {
 }
 
 .btn {
-  
   text-transform: uppercase;
-  letter-spacing: .115em;
+  letter-spacing: 0.115em;
   font-weight: bold;
-  padding: .5em 0;
+  padding: 0.5em 0;
   border: none;
 }
 
@@ -156,6 +157,7 @@ input:focus {
 
   .beta-text {
     font-size: 1.25rem;
+    padding-bottom: 1.5em;
   }
 
   .intro,
